@@ -1,0 +1,75 @@
+{
+    "CLM": {
+        "name": "Coffee Leaf Miner",
+        "description": "Sâu non đục phá lá ở dưới phần biểu bì, ăn phần mô mềm. Sâu đi tới đâu biểu bì phồng lên tới đó, vẽ thành những đường ngoằn ngoèo nên được gọi là vẽ bùa, các lằn đục của sâu không bao giờ gặp nhau.",
+        "symptoms": "Yellow, squiggly lines in the leaves",
+        "solutions": [
+            "dw it won't affect the beans at all :holyfuck:"
+        ]
+    },
+    "CLR": {
+        "name": "Gỉ sắt",
+        "description": "Do nấm Hemileia vastatrix gây ra; ban đầu bệnh gây hại trên lá, sau đó đến thân rồi quả, cây bị bệnh sẽ bị rụng lá dẫn đến mất sức, kém phát triển, khả năng đậu quả thấp, năng suất suy giảm nghiêm trọng",
+        "symptoms": "Đốm tròn nhỏ màu vàng nhạt, về sau lớn dần, đường kính trung bình 2-3 mm, trên mặt vết bệnh phủ một lớp bột phấn màu vàng da cam; những vết bệnh màu nâu như bị cháy.",
+        "solutions": [
+            "Tilt 250EC hoặc Anvil 5SC (0,2%)",
+            "Bayleton 250EC (25WP)",
+            "Bayphidan 250EC (0,1%) hoặc Cyproconazole",
+            "Score 250ND"
+        ]
+    },
+    "PLS": {
+        "name": "Đốm nâu",
+        "description": "PLS",
+        "symptoms": "Đốm nâu",
+        "solutions": [
+            "Độ ẩm đất quá 70%, độ chua không dưới 4-4.5 pH",
+            "Đồng (II) hiđroxit (Cu(OH)2)",
+            "Đồng Oxiclorua (Cu2(OH)3Cl)",
+            "Fosetyl Aluminium (C6H18AlO9P3)"
+        ]
+    },
+    "CLS": {
+        "name": "Đốm mắt cua",
+        "description": "Do nấm Cercospora coffeicola gây ra. Xuất hiện trên lá, quả và sau đó lây lan ra cành cây. ",
+        "symptoms": "Có những vòng tròn đồng tâm phần chính giữa có màu xám và những chấm đen nhỏ quanh viền có màu nâu đỏ bên ngoài cùng có màu vàng.",
+        "solutions": [
+            "Chăm sóc vườn cây, bón phân để cung cấp chất dinh dưỡng đầy đủ và thường xuyên cho cây sinh trưởng khỏe mạnh",
+            "Tỉa cành, chặt cây che bóng để tạo nên độ thông thoáng cho vườn cây",
+            "Anvil 5 SC (0.2%), Tilt 250 EC (0.1%), Bumper 250EC (0,1%) phun 2 – 3 lẫn mỗi lần phun cách nhau 2 tuần"
+        ]
+    },
+    "BSL": {
+        "name": "unknown",
+        "description": "BSL",
+        "symptoms": "unknown",
+        "solutions": [
+            "unknown"
+        ]
+    },
+    "SM": {
+        "name": "unknown",
+        "description": "SM",
+        "symptoms": "unknown",
+        "solutions": [
+            "unknown"
+        ]
+    },
+    "RSM": {
+        "name": "unknown",
+        "description": "RSM",
+        "symptoms": "unknown",
+        "solutions": [
+            "unknown"
+        ]
+    },
+    "VKT": {
+        "name": "Vo Khac Trieu",
+        "description": "PTNK i2023, fan doi M",
+        "symptoms": "HCB hoac KK",
+        "solutions": [
+            "len Master again",
+            "lam fan Newcastle"
+        ]
+    }
+}
