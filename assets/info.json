@@ -1,8 +1,14 @@
 {
+    "HLT": {
+        "name": "Khỏe mạnh",
+        "description": "Biểu hiện trên lá khỏe mạnh",
+        "symptoms": "",
+        "solutions": []
+    },
     "CLM": {
-        "name": "Coffee Leaf Miner",
+        "name": "Sâu vẽ bùa",
         "description": "Sâu non đục phá lá ở dưới phần biểu bì, ăn phần mô mềm. Sâu đi tới đâu biểu bì phồng lên tới đó, vẽ thành những đường ngoằn ngoèo nên được gọi là vẽ bùa, các lằn đục của sâu không bao giờ gặp nhau.",
-        "symptoms": "Yellow, squiggly lines in the leaves",
+        "symptoms": "Các đường ngoằn ngoèo màu trắng/vàng dưới biểu bì của lá",
         "solutions": [
             "dw it won't affect the beans at all :holyfuck:"
         ]
