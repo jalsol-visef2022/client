@@ -77,7 +77,11 @@ class _GalleryPageState extends State<ResultPage> {
   }
 
   Future<RespondedData> sendRequest(XFile image) async {
-    Uri uri = Uri.parse('http://${global.settings.apiAddress}/predict/');
+    String target = global.settings.apiAddress;
+    if (target == "") target = "129.150.40.121:5000";
+    Uri uri = Uri.parse('http://$target/predict/');
+    // Uri uri = Uri.http('129.150.40.121:5000', 'predict');
+    // print(uri.port);
 
     var request = MultipartRequest('POST', uri);
     request.files.add(await MultipartFile.fromPath('image', image.path));
@@ -134,8 +138,6 @@ class _GalleryPageState extends State<ResultPage> {
       children: [
         ConstrainedBox(
           constraints: const BoxConstraints(maxHeight: 150, maxWidth: 150),
-          // child: Image.network(
-          //     'http://${global.settings.apiAddress}/get_result?version=${global.rng.nextInt(10000)}'),
           child: Image.file(
             File(image!.path),
             fit: BoxFit.cover,

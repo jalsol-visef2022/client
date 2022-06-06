@@ -65,8 +65,11 @@ class _SettingsDialogState extends State<SettingsDialog> {
 
     global.globalMountSettings(data);
 
-    SnackBar mySnackBar = SnackBar(
-        content: Text('(Dev) API Address set: ${global.settings.apiAddress}'));
+    String target = global.settings.apiAddress;
+    if (target == "") target = "129.150.40.121:5000";
+
+    SnackBar mySnackBar =
+        SnackBar(content: Text('(Dev) API Address set: $target'));
     ScaffoldMessenger.of(context).showSnackBar(mySnackBar);
   }
 

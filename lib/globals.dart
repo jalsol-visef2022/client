@@ -7,7 +7,6 @@ enum SourceOption { gallery, camera }
 
 class Global {
   SourceOption srcOption = SourceOption.gallery;
-  // var rng = Random();
 
   SettingsData settings = SettingsData(
       contactName: "", homeAddress: "", phoneNumber: "", apiAddress: "");
