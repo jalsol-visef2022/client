@@ -79,7 +79,7 @@ class _GalleryPageState extends State<ResultPage> {
   Future<RespondedData> sendRequest(XFile image) async {
     String target = global.settings.apiAddress;
     if (target == "") target = "jalsol.xyz";
-    Uri uri = Uri.parse('http://$target/predict/');
+    Uri uri = Uri.parse('http://$target:5000/predict/');
     // Uri uri = Uri.http('129.150.40.121:5000', 'predict');
     // print(uri.port);
 
